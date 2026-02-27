@@ -37,7 +37,7 @@ public abstract class Contact {
         this.name = name.trim();
     }
 
-    public void SetPhone(String phone) {
+    public void setPhone(String phone) {
         Validator.validatePhone(phone);
         this.phone = phone.trim();
     }
