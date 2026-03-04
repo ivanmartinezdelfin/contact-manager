@@ -26,7 +26,7 @@ public class Menu {
             io.println("4) Buscar por nombre");
             io.println("5) Actualizar contacto por id");
             io.println("6) Eliminar contacto por id");
-            io.println("7) Salir");
+            io.println("0) Salir");
 
             int opt = io.readInt("Opcion: ");
             try {
